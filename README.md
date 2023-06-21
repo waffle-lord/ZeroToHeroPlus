@@ -1,2 +1,6 @@
-# ZeroToHeroPlus
-An SPT mod to add a new Zero to Hero profile
+Take this, it's dangerous to go alone ...
+
+This is just Zero to hero with a starting handgun, a beer, and some cheese.
+
+PS:
+ya mother

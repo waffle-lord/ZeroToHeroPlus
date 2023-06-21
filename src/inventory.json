@@ -1,0 +1,165 @@
+{
+    "equipment": "5fe49444ae6628187a2e77b8",
+    "fastPanel": {},
+    "items": [
+        {
+            "_id": "5fe49444ae6628187a2e77b8",
+            "_tpl": "55d7217a4bdc2d86028b456d"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78b9",
+            "_tpl": "5963866286f7747bf429b572"
+        },
+        {
+            "_id": "60dca3da42ad9b706b369aca",
+            "_tpl": "602543c13fee350cd564d032"
+        },
+        {
+            "_id": "bf1ac5b735cb64dff346267a",
+            "_tpl": "5857a8bc2459772bad15db29",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "SecuredContainer"
+        },
+        {
+            "_id": "09dcd133a14f170043426117",
+            "_tpl": "627a4e6b255f7527fb05a0f6",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "Pockets"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78b8",
+            "_tpl": "5811ce772459770e9e5f9532"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78ba",
+            "_tpl": "5963866b86f7747bfa1c4462"
+        },
+        {
+            "_id": "8ad83898641043daa5ce663a",
+            "_tpl": "5963866b86f7747bfa1c4462"
+        },
+        {
+            "_id": "412275e1704ec5be8c509e35",
+            "_tpl": "5448bd6b4bdc2dfc2f8b4569",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "Holster",
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "3b3e4cbf29de9794e8fdc626",
+            "_tpl": "5448c12b4bdc2d02308b456f",
+            "parentId": "412275e1704ec5be8c509e35",
+            "slotId": "mod_magazine",
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "d7fa888d083e6d397b55af91",
+            "_tpl": "5448c12b4bdc2d02308b456f",
+            "parentId": "09dcd133a14f170043426117",
+            "slotId": "pocket1",
+            "location": {
+                "x": 0,
+                "y": 0,
+                "r": "Horizontal",
+                "isSearched": true
+            },
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "9b047fa1ed2468c8a82c2aed",
+            "_tpl": "57371f8d24597761006c6a81",
+            "parentId": "d7fa888d083e6d397b55af91",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+                "StackObjectsCount": 8
+            }
+        },
+        {
+            "_id": "9715d33ad980a668a143d213",
+            "_tpl": "57371f8d24597761006c6a81",
+            "parentId": "3b3e4cbf29de9794e8fdc626",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+                "StackObjectsCount": 8
+            }
+        },
+        {
+            "_id": "9b2011b6645b17a232aa3ec5",
+            "_tpl": "57371f8d24597761006c6a81",
+            "parentId": "09dcd133a14f170043426117",
+            "slotId": "pocket2",
+            "location": {
+                "x": 0,
+                "y": 0,
+                "r": "Horizontal",
+                "isSearched": true
+            },
+            "upd": {
+                "StackObjectsCount": 16
+            }
+        },
+        {
+            "_id": "542c0f61e5d3529350e0148c",
+            "_tpl": "62a09f32621468534a797acb",
+            "parentId": "bf1ac5b735cb64dff346267a",
+            "slotId": "main",
+            "location": {
+                "x": 0,
+                "y": 0,
+                "r": "Horizontal",
+                "isSearched": true
+            },
+            "upd": {
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "e2a01d2c069acf3f0f2edb83",
+            "_tpl": "5755356824597772cb798962",
+            "parentId": "bf1ac5b735cb64dff346267a",
+            "slotId": "main",
+            "location": {
+                "x": 1,
+                "y": 1,
+                "r": "Horizontal",
+                "isSearched": true
+            },
+            "upd": {
+                "StackObjectsCount": 1,
+                "MedKit": {
+                    "HpResource": 100
+                }
+            }
+        },
+        {
+            "_id": "2294a51171e966f4c0fa3ea8",
+            "_tpl": "5755356824597772cb798962",
+            "parentId": "bf1ac5b735cb64dff346267a",
+            "slotId": "main",
+            "location": {
+                "x": 1,
+                "y": 0,
+                "r": "Horizontal",
+                "isSearched": true
+            },
+            "upd": {
+                "StackObjectsCount": 1,
+                "MedKit": {
+                    "HpResource": 100
+                }
+            }
+        }
+    ],
+    "questRaidItems": "5fe49444ae6628187a2e78b9",
+    "questStashItems": "5fe49444ae6628187a2e78ba",
+    "sortingTable": "60dca3da42ad9b706b369aca",
+    "stash": "5fe49444ae6628187a2e78b8"
+}
