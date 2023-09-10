@@ -22,10 +22,11 @@ class Mod implements IPostDBLoadMod
         
         const zthProfile = tables.templates.profiles["SPT Zero to hero"]
         
-        const newInventoryData = JSON.parse(readFileSync(join(__dirname, "./inventory.json"), "utf-8"))
+        const bearInventoryData = JSON.parse(readFileSync(join(__dirname, "./bear_inventory.json"), "utf-8"))
+        const usecInventoryData = JSON.parse(readFileSync(join(__dirname, "./usec_inventory.json"), "utf-8"))
         
-        zthProfile.bear.character.Inventory = newInventoryData;
-        zthProfile.usec.character.Inventory = newInventoryData;
+        zthProfile.bear.character.Inventory = bearInventoryData;
+        zthProfile.usec.character.Inventory = usecInventoryData;
 
         tables.templates.profiles[profileName] = zthProfile;
 
