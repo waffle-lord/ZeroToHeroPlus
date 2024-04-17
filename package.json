@@ -1,10 +1,10 @@
 {
     "name": "ZeroToHeroPlus",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "waffle.lord",
-    "akiVersion": "~3.7",
+    "akiVersion": "~3.8",
     "scripts": {
         "setup": "npm i",
         "build": "node ./packageBuild.ts"
